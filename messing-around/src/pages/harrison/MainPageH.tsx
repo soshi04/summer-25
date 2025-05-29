@@ -5,6 +5,7 @@ function MainPageH() {
     return (
         <div>
             <h1>Hello Harrison</h1>
+            <p>test</p>
             <button onClick={() => navigate('/')}>back to main</button>
         </div>
     )
