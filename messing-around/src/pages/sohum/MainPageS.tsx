@@ -6,6 +6,7 @@ function MainPageS() {
     return (
         <>
         <h1>Hello Sohum</h1>
+        <p>testing s</p>
         <button onClick={() => navigate('/')}>back to main</button>
         </>
     )
