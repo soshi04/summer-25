@@ -1,5 +1,3 @@
-import MainPageH from './pages/harrison/MainPageH'
-import MainPageS from './pages/sohum/MainPageS'
 import { useNavigate } from 'react-router-dom'
 import './Start.css'
 

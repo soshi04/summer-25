@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Route, Routes, Navigate } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import MainPageH from './pages/harrison/MainPageH'
 import MainPageS from './pages/sohum/MainPageS'
 import StartPage from './Start'
