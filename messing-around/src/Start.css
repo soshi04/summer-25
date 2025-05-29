@@ -1,13 +1,40 @@
 .harry-buttons{
-    margin: 5px;
+    margin: 10px;
     background: brown;
+    width: 150px;
+    height: 150px;
 }
 
 .sohum-buttons{
-    margin: 5px;
+    margin: 10px;
     background: orange;
+    width: 150px;
+    height: 150px;
 }
 
 .img-haircut {
     width: 400px;
+}
+
+.pick {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 400% 400%;
+    border-radius: 30px;
+    animation: test 3s linear infinite;
+    font-size: 100px;
+    padding: 50px;
+}
+
+@keyframes test {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
