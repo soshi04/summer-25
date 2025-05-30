@@ -5,6 +5,8 @@ function MainPageH() {
     const navigate = useNavigate()
     const [ip, setIp] = useState('');
     
+
+    // changing some stuff test
     useEffect(() => {
         fetch('https://api.ipify.org?format=json')
         .then(result => result.json())
